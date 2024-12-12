@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário do Tom</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/tom_logo.jpg" alt="EBAC">
+            <P class="hero__text">
+                A grande festa do meu aniversário de 34 anos começa em <span id="contador"></span>
+            </P>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>
+                            Localização
+                        </b>
+                        São Gonçalo do Rio das Pedras - Serro - MG
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        Você dá um jeito de vir, comida, bebida e hospedagem eu pago!
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        05/11/2025 às 8hrs
+                    </li>
+                </ul>
+                <a href="" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="evento">
+        <title data-aos="fade-down">Na festa vai ter:</title>
+        <section class="event event--frontend">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Visita a Rapadura
+                    </h2>
+                    <p class="event__details__description">
+                        Na parte da manhã, faremos um passeio a minha cachoeira favorita da região. A Rapadura é uma formação rochosa centenária que contem um pocinho pra nadar, pedras pra escalar e uma cachoeira dentro da gruta!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/tom_rapadura.jpg" alt="Tom pelado na rapadura">
+            </div>
+        </section>
+        <section class="event event--backend event--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Almocinho agroecológico
+                    </h2>
+                    <p class="event__details__description">
+                        Na forma de mutirão, realizaremos juntos o preparo de um almoço farto, somente com produtos da região, caso você faça questão, mesmo eu sendo vegetariano, vou disponibilizar a churrasqueira e o carvão, a carne é por sua conta.
+                    </p>
+                </div>
+                <img class="event__image" src="./images/tom_almoço.jpg" alt="Tom com rabanete">
+            </div>
+        </section>
+        <section class="event event--ux-ui">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Roda de Samba no Pacu
+                    </h2>
+                    <p class="event__details__description">
+                        Depois do almoço seguimos todos para a cachoeira do Pacu, minha segunda predileta, mas não se preocupe, quem tiver de barriga cheia e quiser ficar só boiando ou tomando sol pode, levaremos os instrumentos e veremos o que acontece, só não vai cair lá em baixo!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/tom_samba.jpg" alt="Tom e Nina no Pacu">
+            </div>
+        </section>
+        <section class="event event--data-science event--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Sarau com fogueira
+                    </h2>
+                    <p class="event__details__description">
+                        Voltamos pra casa e pode ser que o samba continue, pode ser que pare, de qualquer forma o palco está aberto para as mais diferentes manifestações (esperamos que algumas em minha homenagem). Ficamos nisso até acabar a lenha!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/tom_fogueira.jpeg" alt="Fogueira">
+            </div>
+        </section>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
